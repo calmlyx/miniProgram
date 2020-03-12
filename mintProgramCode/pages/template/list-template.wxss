@@ -1,0 +1,43 @@
+/* pages/template/list-template.wxss */
+.tmpContainer{
+  display: flex;
+  flex-direction: column;
+  border-top: 2rpx soild #eee;
+  border-bottom: 2rpx soild #eee;
+  margin: 20rpx 0;
+}
+.avatar_date{
+  padding: 10rpx;
+}
+.avatar_date image{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.avatar_date text{
+  font-size: 32rpx
+}
+.title{
+  margin: 20rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.detail_img{
+    width: 100%;
+    height: 460rpx;
+}
+.detail_text{
+    font-size: 32rpx;
+    text-indent: 32rpx;
+}
+.star_view image{
+    width: 32rpx;
+    height: 32rpx;
+    vertical-align: middle;
+    margin-right: 10rpx;
+}
+.star_view text{
+    font-size: 28rpx;
+    margin-right: 10rpx;
+}

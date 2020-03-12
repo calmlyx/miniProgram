@@ -1,0 +1,41 @@
+/* pages/index/index.wxss */
+page{
+  height: 100%;
+  background: #7ed33e
+}
+.indexContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.indexHeader{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin: 100rpx 0;
+}
+.getInfo{
+  width: 300rpx;
+  height: 50rpx;
+  border: 1rpx solid #00b26a;
+  font-size: 20rpx;
+  background: none
+}
+.userName{
+  font-size: 40rpx;
+  font-weight: bold;
+  margin: 100rpx 0;
+}
+.nickName{
+  color: red;
+  font-size: 50rpx;
+}
+.goTo{
+  width: 400rpx;
+  height: 100rpx;
+  border: 2rpx solid #00b26a;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 100rpx;
+  margin: 100rpx 0;
+}
